@@ -1,11 +1,12 @@
 
-function dataHandling(kata, data){
-    for(i = 0; i<kata.length; i++){
-        console.log('Nomor ID:'+kata[i][0]);
-        console.log('Nama Lengkap:'+kata[i][1]);
-        console.log('TTL:'+kata[i][2]);
-        console.log('Hobi:'+kata[i][3]);
- 
+function dataHandling(id){
+    for(i = 0; i<id.length; i++){
+        console.log('Nomor ID: '+id[i][0]);
+        console.log('Nama Lengkap: '+id[i][1]);
+        console.log('TTL: '+id[i][2]+ ' '+ id[i][3]);
+        console.log('Hobi: '+id[i][4]);
+        console.log(' ');
+        
     }
     
 
